@@ -358,22 +358,12 @@ a {
 
 .site-footer {
   padding-top: 1rem;
-  margin-top: 2rem;
+  margin: 0px;
   border-top: solid 1px $hr-border-color;
   position: absolute;
   bottom: 20px;
-
-  @include large {
-    font-size: 1rem;
-  }
-
-  @include medium {
-    font-size: 1rem;
-  }
-
-  @include small {
-    font-size: 0.9rem;
-  }
+  left: 0px;
+  font-size: 12px;
 }
 
 .site-footer-owner {
