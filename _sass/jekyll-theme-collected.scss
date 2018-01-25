@@ -133,12 +133,18 @@ a {
     font-size: 1rem;
   }
 }
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+}
 
-.feed-item{
-  background: #ffffff;
-  box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.25);
-  padding: 15px;
-  max-width: calc(33% - 32px);
+.feed-item { /* Masonry bricks or child elements */
+    background: #ffffff;
+    box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 0 0 1em;
+    padding: 15px;
+    width: 100%;
 }
 
 .main-content {
