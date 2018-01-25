@@ -164,6 +164,17 @@ a {
       }
     }
 
+    .post-meta {
+      .post-date {
+        font-size: 12px;
+        display: inline-block;
+      }
+      .external-link {
+        display: inline-block;
+        margin-left: 10px;
+      }
+    }
+
     .permalink {
       text-align: right;
       margin-bottom: 10px;
@@ -198,7 +209,7 @@ a {
         position: absolute;
         right: 0px;
         top: 0px;
-        
+
       }
     }
   }
