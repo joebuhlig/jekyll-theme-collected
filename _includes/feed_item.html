@@ -5,10 +5,10 @@
         <h3>{{ post.title }}</h3>
       </div>
       {% if post.amazon %}
-      <div class="external-link"><a class="no-underline" href="{{ post.amazon }}"><i class="fas fa-external-link-alt"></i>View on Amazon</a></div>
+      <div class="external-link"><a class="no-underline" target="_blank" href="{{ post.amazon }}"><i class="fas fa-external-link-alt"></i>View on Amazon</a></div>
       {% endif %}
       {% if post.external %}
-      <div class="external-link"><a class="no-underline" href="{{ post.external }}"><i class="fas fa-external-link-alt"></i>View Original</a></div>
+      <div class="external-link"><a class="no-underline" target="_blank" href="{{ post.external }}"><i class="fas fa-external-link-alt"></i>View Original</a></div>
       {% endif %}
       <div class="feed-content">{{ post.content }}</div>
       <div class="permalink"><a class="no-underline" href="{{ post.url }}"><i class="fas fa-link"></i></a></div>
