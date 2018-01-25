@@ -2,12 +2,13 @@
   <div class="feed-content-wrapper">
     <div class="feed-content">
       <div class="feed-title">
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <h3>{{ post.title }}</h3>
       </div>
       <div class="feed-meta">
         {% include post_meta.html post=post %}
       </div>
       <div class="feed-content">{{ post.content }}</div>
+      <div class="permalink"><a href="{{ post.url }}"><i class="fas fa-link"></i></a></div>
     </div>
   </div>
 </div>
