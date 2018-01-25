@@ -1,0 +1,13 @@
+<div class="feed-item">
+  <div class="feed-meta">
+    {% include post_meta.html post=post %}
+  </div>
+  <div class="feed-content-wrapper">
+    <div class="feed-content">
+      <div class="feed-title">
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      </div>
+      <div class="feed-content">{{ post.content }}</div>
+    </div>
+  </div>
+</div>
