@@ -23,9 +23,11 @@
   box-sizing: border-box;
 }
 
-html, body, .main-content{
-  height: 100%;
+html {
   min-height: 100%;
+}
+body, .main-content{
+  height: 100%;
 }
 
 body {
