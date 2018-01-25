@@ -23,11 +23,8 @@
   box-sizing: border-box;
 }
 
-html {
-  min-height: 100%;
-}
 body, .main-content{
-  height: 100%;
+  height: 100vh;
 }
 
 body {
