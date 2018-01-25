@@ -109,6 +109,11 @@ a {
   @include small {
     font-size: 1rem;
   }
+
+  a, a:hover, a:visited, a:active {
+    color: $header-heading-color;
+    text-decoration: none;
+  }
 }
 
 .site-description {

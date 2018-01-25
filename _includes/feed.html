@@ -1,0 +1,5 @@
+<div id="masonry">
+{% for post in site.posts limit:20 %}
+    {% include feed_item.html post=post %}
+{% endfor %}
+</div>
