@@ -4,6 +4,7 @@ owner_name: Jekyll Collected Theme
 owner_homepage: https://github.com/joebuhlig/jekyll-theme-collected
 plugins:
   - jekyll-feed
+show_post_dates: false
 link_list:
   books:
     title: Books

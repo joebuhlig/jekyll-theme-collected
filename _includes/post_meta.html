@@ -1,1 +1,9 @@
+{% if site.show_post_dates %}
 <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+{% endif %}
+{% if post.amazon %}
+<div class="external-link"><a class="no-underline" target="_blank" href="{{ post.amazon }}"><i class="fas fa-external-link-alt"></i>View on Amazon</a></div>
+{% endif %}
+{% if post.external %}
+<div class="external-link"><a class="no-underline" target="_blank" href="{{ post.external }}"><i class="fas fa-external-link-alt"></i>View Original</a></div>
+{% endif %}
