@@ -1,2 +1,3 @@
 title: Collected theme
 description: Collected is a theme devoted to short-form, commonplace style posts.
+permalink: /:year/:month/:day/:title

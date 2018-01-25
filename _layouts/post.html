@@ -1,0 +1,13 @@
+<div class="post-wrapper">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</a></h1>
+      <p class="post-meta">
+        {% include post_meta.html post=page %}
+      </p>
+    </header>
+    <div class="article">
+      {{ content }}
+    </div>
+  </article>
+</div>

@@ -99,15 +99,15 @@ a {
   margin-bottom: 0.1rem;
 
   @include large {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
   }
 
   @include medium {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 
   @include small {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 }
 
@@ -129,7 +129,15 @@ a {
   }
 }
 
+.feed-item{
+  background: #ffffff;
+  box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  max-width: calc(33% - 32px);
+}
+
 .main-content {
+  background: #ececec;
   margin-left: 250px;
   word-wrap: break-word;
 
@@ -138,9 +146,7 @@ a {
   }
 
   @include large {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
+    padding: 30px;
     font-size: 1.1rem;
   }
 
