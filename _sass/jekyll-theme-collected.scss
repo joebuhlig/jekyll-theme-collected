@@ -365,6 +365,11 @@ a {
   color: $blockquote-text-color;
 }
 
+.link-list {
+  .link {
+    margin-bottom: 10px;
+  }
+}
 .no-underline {
   text-decoration: none;
   border-bottom: none;
