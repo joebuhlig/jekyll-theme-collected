@@ -359,3 +359,8 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+.no-underline {
+  text-decoration: none;
+  border-bottom: none;
+}
