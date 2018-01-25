@@ -1,10 +1,10 @@
 {% if site.show_post_dates %}
-<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+<span>{{ article.date | date: "%b %-d, %Y" }}</span>
 {% endif %}
-<div>hi {{ post | inspect }}</div>
-{% if post.amazon %}
-<div class="external-link"><a class="no-underline" target="_blank" href="{{ post.amazon }}"><i class="fas fa-external-link-alt"></i>View on Amazon</a></div>
+<div>hi {{ article | inspect }}</div>
+{% if article.amazon %}
+<div class="external-link"><a class="no-underline" target="_blank" href="{{ article.amazon }}"><i class="fas fa-external-link-alt"></i>View on Amazon</a></div>
 {% endif %}
-{% if post.external %}
-<div class="external-link"><a class="no-underline" target="_blank" href="{{ post.external }}"><i class="fas fa-external-link-alt"></i>View Original</a></div>
+{% if article.external %}
+<div class="external-link"><a class="no-underline" target="_blank" href="{{ article.external }}"><i class="fas fa-external-link-alt"></i>View Original</a></div>
 {% endif %}
