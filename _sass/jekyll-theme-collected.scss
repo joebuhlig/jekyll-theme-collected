@@ -156,10 +156,6 @@ a {
   margin-left: 250px;
   word-wrap: break-word;
 
-  :first-child {
-    margin-top: 0;
-  }
-
   @include large {
     padding: 30px;
     font-size: 1.1rem;
