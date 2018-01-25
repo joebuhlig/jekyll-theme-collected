@@ -178,8 +178,28 @@ a {
   margin: 0px auto;
 
   .post {
+    .post-header {
+      position: relative;
+    }
     .post-title {
       margin-top: 0px;
+    }
+    .post-meta {
+      .post-date {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: inline-block;
+      }
+      .external-link {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .permalink {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        
+      }
     }
   }
 }
