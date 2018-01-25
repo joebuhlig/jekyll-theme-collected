@@ -134,7 +134,11 @@ a {
   }
 }
 #masonry { /* Masonry container */
-    column-count: 4;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
     column-gap: 1em;
 }
 
