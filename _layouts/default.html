@@ -17,7 +17,7 @@
       {% assign categories = site.categories | sort %}
       {% if categories %}
       <div class="category-list">
-        {% for category in categories | sort %}
+        {% for category in categories %}
           <div class="category"><a class="{{ category[0] }}" href="/{{ category[0] }}">{{ category[0] | capitalize }}</a></div>
         {% endfor %}
       </div>
