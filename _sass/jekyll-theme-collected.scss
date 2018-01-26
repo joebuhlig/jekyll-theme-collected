@@ -98,6 +98,10 @@ a {
 }
 .menu-toggle{
   display: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 
   @include large {
     display: block;
@@ -139,14 +143,20 @@ a {
 
     .site-title{
       position: fixed;
+      width: 100%;
     }
     .menu-toggle{
       display: block;
       background: #ffffff;
       position: fixed;
+      top: 40px;
       width: 100%;
       z-index: 1000;
       height: 100%;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
     }
     .site-footer{
       bottom: 50px;
