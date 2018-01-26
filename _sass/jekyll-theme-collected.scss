@@ -98,12 +98,28 @@ a {
 }
 
 .page-header {
+  background: #ffffff;
   color: $header-heading-color;
   text-align: center;
-  position: fixed;
-  height: 100%;
-  padding: 10px;
-  width: 250px;
+  position: absolute;
+  height: 35px;
+  width: 100%;
+  font-size: 12px;
+  padding: 0px;
+
+  @include large {
+    position: fixed;
+    height: 100%;
+    padding: 10px;
+    width: 250px;
+  }
+
+  @include medium {
+    position: fixed;
+    height: 100%;
+    padding: 10px;
+    width: 250px;
+  }
 }
 
 .site-title {
@@ -182,10 +198,14 @@ a {
 }
 
 .mobile {
-  display: none;
+  display: block;
 
-  @include small {
-    display: block;
+  @include large {
+    display: none;
+  }
+
+  @include medium {
+    display: none;
   }
 }
 .feed-item { /* Masonry bricks or child elements */
