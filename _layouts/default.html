@@ -17,7 +17,7 @@
       {% if site.categories %}
       <div class="category-list">
         {% for category in site.categories %}
-          <div class="category"><a class="{{ category }}" href="/{{ category }}">{{ category | capitalize }}</a></div>
+          <div class="category"><a class="{{ category[0] }}" href="/{{ category[0] }}">{{ category[0] | capitalize }}</a></div>
         {% endfor %}
       </div>
       {% endif %}
