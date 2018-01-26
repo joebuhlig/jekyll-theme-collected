@@ -123,6 +123,7 @@ a {
   font-size: 12px;
   padding: 0px;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.18);
+  z-index: 1000;
 
   @include large {
     height: 100%;
@@ -327,6 +328,7 @@ a {
 .main-content {
   background: #ececec;
   margin-left: 0px;
+  margin-top: 40px;
   padding: 10px;
   word-wrap: break-word;
 
@@ -334,12 +336,14 @@ a {
     padding: 30px;
     font-size: 1.1rem;
     margin-left: 250px;
+    margin-top: 0px;
   }
 
   @include medium {
     padding: 25px;
     font-size: 1.1rem;
     margin-left: 250px;
+    margin-top: 0px;
   }
 
   @include small {
