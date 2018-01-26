@@ -289,17 +289,20 @@ a {
 
 .main-content {
   background: #ececec;
-  margin-left: 250px;
+  margin-left: 0px;
+  padding: 10px;
   word-wrap: break-word;
 
   @include large {
     padding: 30px;
     font-size: 1.1rem;
+    margin-left: 250px;
   }
 
   @include medium {
     padding: 25px;
     font-size: 1.1rem;
+    margin-left: 250px;
   }
 
   @include small {
