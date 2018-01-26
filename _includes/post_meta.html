@@ -1,9 +1,10 @@
 {% if site.show_post_dates %}
 <div class="post-date">{{ include.article.date | date: "%b %-d, %Y" }}</div>
 {% endif %}
+<div class="post-categories">{% for category in include.article.categories %}<span><a class="{{category}}" href="/{{category}}">{{category}}</a></span>{% endfor %}</div>
 {% if include.article.amazon %}
 <div class="external-link"><a class="no-underline" target="_blank" href="{{ include.article.amazon }}"><i class="fas fa-external-link-alt"></i>View on Amazon</a></div>
 {% endif %}
 {% if include.article.external %}
-<div class="external-link"><a class="no-underline" target="_blank" href="{{ include.article.external }}"><i class="fas fa-external-link-alt"></i>View Original</a></div>
+<div class="external-link"><a class="no-underline" target="_blank" href="{{ include.article.external }}"><i class="fas fa-external-link-alt"></i>{% if include.article.external_text %}{{ include.article.external_text }}{% else %}View Source{% endif %}</a></div>
 {% endif %}

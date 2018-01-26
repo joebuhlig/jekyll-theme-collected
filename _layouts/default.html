@@ -14,10 +14,10 @@
       <h1 class="site-title"><a class="no-underline" href="/">{{ site.title }}</a></h1>
       <h3 class="site-owner">by <a href="{{site.owner_homepage}}">{{site.owner_name}}</a></h3>
       <h2 class="site-description">{{ site.description }}</h2>
-      {% if site.link_list %}
-      <div class="link-list">
-        {% for link in site.link_list %}
-          <div class="link"><a class="{{ link[0] }}" href="{{link[1].url}}">{{link[1].title}}</a></div>
+      {% if site.categories %}
+      <div class="category-list">
+        {% for category in site.categories %}
+          <div class="category"><a class="{{ category }}" href="/{{ category }}">{{ category | capitalize }}</a></div>
         {% endfor %}
       </div>
       {% endif %}
