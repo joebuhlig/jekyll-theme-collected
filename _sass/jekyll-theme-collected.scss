@@ -331,24 +331,22 @@ a {
   margin-top: 40px;
   padding: 10px;
   word-wrap: break-word;
+  font-size: 0.9rem;
 
   @include large {
     padding: 30px;
-    font-size: 1.1rem;
     margin-left: 250px;
     margin-top: 0px;
   }
 
   @include medium {
     padding: 25px;
-    font-size: 1.1rem;
     margin-left: 250px;
     margin-top: 0px;
   }
 
   @include small {
     padding: 15px;
-    font-size: 1rem;
   }
 
   img {
@@ -577,7 +575,7 @@ a {
         height: 0;
         width: 0;
         display: inline-block;
-        border-top: 10px solid transparent;
+        border-top: 8px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 8px solid #a5a5a5;
       }
