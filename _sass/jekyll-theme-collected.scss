@@ -208,6 +208,17 @@ a {
     display: none;
   }
 }
+.menu-toggle{
+  display: none;
+
+  @include large {
+    display: block;
+  }
+
+  @include medium {
+    display: block;
+  }
+}
 .feed-item { /* Masonry bricks or child elements */
     background: #ffffff;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
