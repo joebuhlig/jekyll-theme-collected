@@ -140,11 +140,10 @@ a {
   }
 
   &.active-mobile-menu{
+    position: fixed;
+    width: 100%;
+    top: 0px;
 
-    .site-title{
-      position: fixed;
-      width: 100%;
-    }
     .menu-toggle{
       display: block;
       background: #ffffff;
@@ -525,7 +524,7 @@ a {
 
 .category-list {
   .category {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
 }
