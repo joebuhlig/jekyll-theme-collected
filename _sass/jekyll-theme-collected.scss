@@ -424,3 +424,30 @@ a {
     margin-right: 5px;
   }
 }
+
+.post-categories{
+  display: inline-block;
+  
+  span {
+    a{
+      color: #ffffff;
+      background-color: #a5a5a5;
+      padding: 2px 0px 2px 10px;
+      text-decoration: none;
+      font-size: 12px;
+
+      &:after {
+        content: " ";
+        position: relative;
+        top: 5px;
+        left: 8px;
+        height: 0;
+        width: 0;
+        display: inline-block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 8px solid #a5a5a5;
+      }
+    }
+  }
+}
