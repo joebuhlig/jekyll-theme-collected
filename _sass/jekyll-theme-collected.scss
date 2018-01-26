@@ -140,29 +140,29 @@ a {
   }
 }
 #masonry { /* Masonry container */
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-    -moz-column-gap: 1em;
-    -webkit-column-gap: 1em;
-    column-gap: 1em;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+    -moz-column-gap: 0.5em;
+    -webkit-column-gap: 0.5em;
+    column-gap: 0.5em;
 
     @include large {
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-count: 3;
+      -moz-column-gap: 1em;
+      -webkit-column-gap: 1em;
+      column-gap: 1em;
+    }
+
+    @include medium {
       -moz-column-count: 2;
       -webkit-column-count: 2;
       column-count: 2;
       -moz-column-gap: 0.75em;
       -webkit-column-gap: 0.75em;
       column-gap: 0.75em;
-    }
-
-    @include medium {
-      -moz-column-count: 1;
-      -webkit-column-count: 1;
-      column-count: 1;
-      -moz-column-gap: 0.5em;
-      -webkit-column-gap: 0.5em;
-      column-gap: 0.5em;
     }
 }
 
