@@ -5,10 +5,6 @@ owner_homepage: https://github.com/joebuhlig/jekyll-theme-collected
 plugins:
   - jekyll-feed
 show_post_dates: false
-link_list:
-  books:
-    title: Books
-    url: /books
-  quotes:
-    title: Quotes
-    url: /quotes
+twitter_username: twitterusername
+github_username:  githubusername
+instagram_username: instagramusername
