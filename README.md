@@ -10,7 +10,7 @@ To use the Collected theme:
 3. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: jekyll-theme-collected
+    remote_theme: joebuhlig/jekyll-theme-collected
     ```
 4. Push your local repository to GitHub.
 5. Under Settings -> Options for the repository, set the GitHub Pages source to Master.
